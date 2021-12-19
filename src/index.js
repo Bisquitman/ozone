@@ -1,7 +1,9 @@
 import cart from './modules/cart.js';
-import second from './modules/second.js';
-// import getData from './modules/getData.js';
+import load from './modules/load.js';
+import search from './modules/search.js';
+import catalog from './modules/catalog.js';
 
 cart();
-second();
-// getData();
+load();
+search();
+catalog();
