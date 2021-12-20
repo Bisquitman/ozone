@@ -76,9 +76,10 @@ const cart = () => {
 
     postData(cart)
       .then(() => {
-        localStorage.removeItem([]);
-        renderCart(cart);
+        localStorage.removeItem('cart');
+        renderCart([]);
         cartTotal.textContent = 0;
+        closeCart();
       })
   });
 }
